@@ -1,0 +1,15 @@
+
+body, html{
+    overflow-x: hidden;
+}
+
+.skills {
+    text-align: center;
+}
+.skill-header {
+    text-align: center;
+}
+.t-center {
+    text-align: center;
+}
+
