@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Code', monospace;
+}
+::selection {
+    color: #000;
+    background: #fff;
+}
+::-moz-selection {
+    color: #000;
+    background: #fff;
+}
+.disable-select {
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -webkit-touch-callout:none;
+    -ms-user-select:none;
+}
+body {
+    color: #ffffff;
+    background: #000;
+    /* padding: 1% 1% 1% 2%; */
+}
+.prompt .system {
+    color: #4e9a06;
+    font-weight: bold;
+}
+.prompt .path {
+    color: #06979a;
+    font-weight: bold;
+}
+.ascii-art {
+    background-color: #17BF63;
+    color: #000;
+    display: inline-block;
+    padding: 1em 3em 1em 1em;
+    font-weight: bolder;
+}
+.copyright {
+    background-color: #454846;
+    color: #fff;
+    display: inline-block;
+    padding: .4em;
+}
+.screen {
+    border: 1em solid rgba(0, 0, 0, 0);
+    font-size: .95em;
+    overflow-x: auto;
+}
+.screen > a {
+    color: #FFF;
+    font-weight: 1000;
+}
+.screen .EOF {
+    background: #fff;
+    color: #000;
+}
+#mr-robot {
+    color: #ba0320;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: MrRobot;
+    text-decoration: none;
+}
+.h {
+    color: royalblue;
+}
