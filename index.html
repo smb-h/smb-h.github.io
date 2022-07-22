@@ -68,11 +68,12 @@ License                 Copyright ©<span id="this_year"></span> SMB<span class=
 
 <script>
     var today = new Date()
-    var birth_date = new Date("1998-04-14")
     // copyright year
     document.getElementById("this_year").innerHTML = today.getFullYear();
     // live uptime
     function live_uptime() {
+        var today = new Date()
+        var birth_date = new Date("1998-04-14")
         var age = today - birth_date
         document.getElementById("uptime").innerHTML =  age;
         setTimeout(live_uptime, 1000);
