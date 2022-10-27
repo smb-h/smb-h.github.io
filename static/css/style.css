@@ -74,6 +74,21 @@ body {
     font-weight: bold;
     color: rgb(117, 117, 254);
 }
+.git-head-wrapper {
+    font-weight: bolder;
+    background: #383737;
+    background-color: rgb(56, 55, 55);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    display: inline-block;
+    padding: .1em;
+}
 .git-link {
     color: rgb(190, 246, 100) !important;
 }
