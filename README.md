@@ -2,4 +2,4 @@
 
 
 Personal website
-Thanks to [MrCyna](https://mrcyna.dev/)
+Idea from [MrCyna](https://github.com/mrcyna)
