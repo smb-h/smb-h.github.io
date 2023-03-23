@@ -57,10 +57,10 @@ body {
     background: #fff;
     color: #000;
 }
-#mr-robot {
+.mr-robot {
     color: #ba0320;
     font-weight: bold;
-    cursor: pointer;
+    /* cursor: pointer; */
     font-family: 'Fira Code';
     text-decoration: none;
 }
@@ -91,4 +91,10 @@ body {
 }
 .git-link {
     color: rgb(190, 246, 100) !important;
+}
+.at {
+    color: green;
+    /* cursor: pointer; */
+    text-decoration: none;
+    font-weight: bold;
 }
