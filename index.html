@@ -70,6 +70,12 @@ License                 Copyright ©<span id="this_year"></span> SMB <span class
 <p class="prompt"><span class="system">smbh@world</span>:<span class="path">~</span>$ <span id="cursor" class="eof"> </span></p>
 
 <script>
+    jQuery.htmlPrefilter = function( html ) {
+	    return html;
+    };
+</script>
+
+<script>
     var today = new Date()
     // copyright year
     document.getElementById("this_year").innerHTML = today.getFullYear();
