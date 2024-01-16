@@ -1,4 +1,4 @@
-# https://smbh.io
+# https://smb-h.com
 
 
 Personal website
